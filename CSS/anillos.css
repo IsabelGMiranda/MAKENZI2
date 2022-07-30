@@ -1,0 +1,83 @@
+
+* {
+    text-align: center;
+    position: 0;
+    margin: 0;
+}
+
+header{
+    
+    position: static;
+    background-color: #ffffff;
+    width: 100%;
+
+
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #CE7D35;
+    transition: all .3s;
+}
+
+
+body{
+    width: 100%;
+    height:100%vh;
+    background-color:#d5e5f5;
+
+}
+    
+    table {
+
+        position: absolute;
+        left:40%;
+        top: 10%;
+        border-collapse: collapse;
+        width: 7px;
+        height: 80px;
+        border: 1px solid #055272;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    tr {
+        transition: all .2s ease-in;
+        cursor: pointer;
+        background:white; 
+          }
+    
+    th,
+    td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #055272;
+    }
+    
+    tr:hover {
+        background-image: radial-gradient(circle at 50% -20.71%, #d6d4f1 0, #dad3ef 6.25%, #dfd2ed 12.5%, #e3d0ea 18.75%, #e7cfe8 25%, #eacfe4 31.25%, #edcee1 37.5%, #f0cdde 43.75%, #f2cdda 50%, #f4cdd6 56.25%, #f5cdd3 62.5%, #f5cdcf 68.75%, #f5cdcb 75%, #f5cec8 81.25%, #f4cec5 87.5%, #f3cfc2 93.75%, #f1d0c0 100%);
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+        
+    }
+    
+    @media only screen and (max-width: 768px) {
+        table {
+            width: 90%;
+        }
+    }
